@@ -1,0 +1,20 @@
+{
+  "name": "flipp-weekly-flyer-api",
+  "version": "1.0.0",
+  "description": "Weekly flyer deals from Flipp by postal code or ZIP to CSV, Excel (XLSX) or JSONL with Node.js or Python, via the yugenox Flipp Flyer Deals Scraper on Apify.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "search": "node search.mjs --help",
+    "flyers": "node flyers.mjs --help",
+    "weekly": "node weekly.mjs --help"
+  },
+  "dependencies": {
+    "apify-client": "^2.25.0",
+    "write-excel-file": "^4.1.1"
+  }
+}

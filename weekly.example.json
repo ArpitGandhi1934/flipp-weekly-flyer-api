@@ -1,0 +1,7 @@
+{
+  "mode": "search",
+  "postalCodes": ["M5V 2T6"],
+  "searchTerms": ["chicken breast", "eggs", "butter", "coffee"],
+  "itemTypes": ["flyer"],
+  "onlyValidNow": true
+}

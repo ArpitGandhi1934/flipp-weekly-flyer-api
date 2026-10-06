@@ -1,0 +1,8 @@
+# One search term per line. Lines starting with # are skipped.
+milk
+eggs
+butter
+chicken breast
+ground beef
+bananas
+coffee

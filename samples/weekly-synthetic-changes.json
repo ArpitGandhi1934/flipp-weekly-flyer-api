@@ -1,0 +1,30 @@
+{
+  "new": 4,
+  "price_drop": 4,
+  "price_up": 2,
+  "unchanged": 4,
+  "expired": 3,
+  "expiredItems": [
+    {
+      "name": "Chicken thighs, bone-in",
+      "merchant": "Example Foods",
+      "lastPrice": 2.99,
+      "validTo": "2026-10-08T03:59:59+00:00"
+    },
+    {
+      "name": "Medium eggs, 30",
+      "merchant": "Sample Grocer",
+      "lastPrice": 9.99,
+      "validTo": "2026-10-08T03:59:59+00:00"
+    },
+    {
+      "name": "Espresso beans 340 g",
+      "merchant": "Demo Market",
+      "lastPrice": 11.49,
+      "validTo": "2026-10-08T03:59:59+00:00"
+    }
+  ],
+  "previousRunAt": "2026-10-01T18:04:12.000Z",
+  "firstRun": false,
+  "complete": true
+}
