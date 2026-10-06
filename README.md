@@ -297,7 +297,6 @@ Flyer deals are product, price and store data. The rows and the sample hold no p
 
 - The guide this repo goes with: [weekly flyer API][guide]. Other guides and public-data examples: [yugenox-data.vercel.app](https://yugenox-data.vercel.app)
 - The Actor, with its input form, output table and API page: [Flipp Flyer Deals Scraper][actor] ([API][actor-api])
-- More Canadian retail and grocery data (Loblaws, Costco, Canadian Tire, jobs, real estate): [yugenox on Apify][store]
 - Use it from AI assistants: [setup guide][ai]
 
 ## Samples, testing and legal
@@ -305,6 +304,7 @@ Flyer deals are product, price and store data. The rows and the sample hold no p
 - The search sample comes from one run on 2026-10-06 (Actor build 0.1.7, 39 deals) through `search.mjs`. The raw rows are committed as returned; the .csv and .xlsx were written from them with `--from`. Input keys were checked against the Actor's live input schema the same day.
 - `samples/weekly-synthetic-*` is made up (stores, products, prices) to show the digest format. It isn't real data.
 - Tested: Node 22, Python 3.9 and Python 3.14 write byte-identical CSV, JSONL and digests, and the .xlsx cells match between Node and Python (openpyxl 3.1.5). Only `search.mjs` ran against the live Actor (the sample run); the new-run, `--task` and `--run` paths of every script were tested against a stub client, and the client calls they use exist in apify-client 2.25 (Node) and 2.5.1 and 3.2.1 (Python).
+- Disclosure: the Flipp Flyer Deals Scraper Actor these scripts call is built by the author of this repo.
 - Flipp and the retailers' names are trademarks of their owners. This repo and the Actor are not affiliated with or endorsed by Flipp or any retailer.
 - The MIT licence covers the code. The deal data in `samples/` is a short excerpt of public flyer listings, included to show the output format; it isn't ours to license.
 - Made by Yugenox Corporation.
@@ -313,7 +313,6 @@ Flyer deals are product, price and store data. The rows and the sample hold no p
 [actor]: https://apify.com/yugenox/flipp-flyer-deals-scraper
 [actor-api]: https://apify.com/yugenox/flipp-flyer-deals-scraper/api
 [badge]: https://apify.com/actor-badge?actor=yugenox/flipp-flyer-deals-scraper
-[store]: https://apify.com/yugenox
 [signup]: https://console.apify.com/sign-up
 [schedules]: https://docs.apify.com/platform/schedules
 [rival-cb1]: https://apify.com/crawlerbros/flipp-grocery-deals-scraper
